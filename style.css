@@ -1,0 +1,288 @@
+@font-face {
+  font-family: Grand Hotel;
+  src: url('./assets/Grand_Hotel/GrandHotel-Regular.ttf');
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
+header{
+    background-image: url('./assets/image/Header Background.png') ;
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 100vh;
+}
+.barre{
+    display: flex;
+    flex-direction: row;
+  
+}
+.menu-barre{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-right: 2rem;
+}
+
+.menu-barre ul{
+    text-decoration: none;
+    display: flex;
+    justify-items: center;
+    gap: 90px;
+    list-style-type: none;
+    
+}
+.menu-barre  li a{
+    color: white;
+    text-decoration: none;
+}
+.fa-search{
+    font-size: 30px;
+    color: white;
+}
+.title-content h1{
+    font-family: Grand Hotel;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #ffc200;
+}
+.title-content{
+    display: flex;
+    align-items: last baseline;
+    flex-direction: column;
+    margin-top: 170px;
+}
+.title-content P{
+    color: white;
+}
+.menu-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-content h1{
+    font-family: Grand Hotel;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.best-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    justify-items: center;
+    text-align: center;
+}
+.card{
+    width: 50%;
+}
+.best-div img{
+    border-radius: 100%;
+    margin-top: 25px;
+    object-position: bottom;
+}
+.second{
+    background-image: url('./assets/image/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    display: grid;
+    height: 350vh;
+    grid-template-columns: repeat(2,1fr);
+}
+.pic img{
+    border-radius: 100%;
+
+    margin-left: 125px;
+}
+.second-pic{
+    margin-top: 10rem;
+    margin-left: 200px;
+    
+    
+}
+.second-pic h1{
+     color: #ffc200;
+      font-size: 75px;  
+    font-family: Grand Hotel;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.second-pic p{
+    color: white;
+    
+    
+}
+.bouton{
+    padding: 8px 40px;
+    font-weight: bold;
+    background-color: #ffc200;
+    border: none;
+    margin-top: 15px;
+}
+.second1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   margin-top: 200px;
+   gap: 30px;
+}
+.second1 h1.titre{
+   font-family: Grand Hotel; 
+    font-size: 65px;
+    color: #ffc200;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.second1 p{
+    color:white;
+    font-size: 1.2rem;
+}
+.statistic{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+
+}
+.stat{
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.statistic .stat h1{
+    color: #ffc200;
+    margin-bottom: 0;
+}
+.stat p{
+    color: white;
+    
+}
+.pico{
+    display: flex;
+    flex-direction: column;
+    margin-top: 700px;
+    width: 50%;
+    margin-left: 180px;
+
+}
+.pico h1{
+    color: #ffc200;
+    font-size: 50px;
+    font-family: Grand Hotel;
+    font-weight: 100;
+    margin-bottom: 0;
+    
+}
+.pico p{
+  
+    color: white;
+}
+.pico .bouton{
+    width: 60%;
+}
+.title-sec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 700px;
+    width: 50%;
+    margin-left: 180px;
+}
+.title-sec img{
+    border-radius: 100%;
+}
+.yellow{
+    margin-top: 100px;
+    background-image: url('./assets/image/Back.png');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.yellow-text{
+    font-size: x-large;
+}
+.yellow-text h1{
+    font-family: Grand Hotel;
+    font-size: xx-large;
+}
+.sus{
+    background-image: url('./assets/image/Footer Background.png');
+    height: 80vh;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    justify-self: center;
+}
+.sus h1{
+     font-family: Grand Hotel;
+    font-size: 75px;
+    font-weight: 80;
+    margin-bottom: 0;
+    
+}
+span input{
+    width: 30%;
+    border: none;
+    background-color: white;
+    padding: .8rem .5rem;
+    border-radius: 5px;
+}
+span button{
+    padding: 12px 20px;
+    font-weight: bold;
+    background-color: #ffc200;
+    border: none;
+    margin-top: 15px;
+    margin-left: -10px;
+    
+}
+footer{
+    background-color: #303030;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 200px;
+    gap: 50px;
+
+}
+.text-footer h1{
+    font-size: 15px;
+    color: white;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.foot1 ul{
+    text-decoration: none; 
+    list-style-type: none;
+}
+.foot1 li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-div{
+    color: white;
+}
+.footer-div i{
+    font-size: 50px;
+}
